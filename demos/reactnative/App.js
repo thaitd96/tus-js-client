@@ -10,7 +10,6 @@ import {
   Linking,
   PermissionsAndroid,
 } from "react-native";
-// import * as ImagePicker from "expo-image-picker";
 import tus from "tus-js-client";
 
 const styles = StyleSheet.create({
