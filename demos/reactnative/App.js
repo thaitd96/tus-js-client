@@ -1,153 +1,164 @@
 /* eslint-disable no-console */
 
-import React from 'react'
+import React from "react";
 import {
   StyleSheet,
   Text,
   View,
   Button,
   Image,
-  Linking
-} from 'react-native'
-// import { ImagePicker, Permissions } from 'expo'
-import tus from 'tus-js-client'
+  Linking,
+  PermissionsAndroid,
+} from "react-native";
+import * as ImagePicker from "expo-image-picker";
+import tus from "tus-js-client";
 
 const styles = StyleSheet.create({
   container: {
-    flex           : 1,
-    backgroundColor: '#fff',
-    alignItems     : 'center',
-    justifyContent : 'center',
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
   heading: {
-    fontSize    : 20,
-    fontWeight  : 'bold',
+    fontSize: 20,
+    fontWeight: "bold",
     marginBottom: 10,
   },
-})
+});
 
 export default class App extends React.Component {
-  constructor () {
-    super()
+  constructor() {
+    super();
 
     this.state = {
       uploadedBytes: 0,
-      totalBytes   : 0,
-      file         : null,
-      status       : 'no file selected',
-      uploadUrl    : null,
-    }
+      totalBytes: 0,
+      file: null,
+      status: "no file selected",
+      uploadUrl: null,
+    };
 
-    this.startUpload = this.startUpload.bind(this)
-    this.selectPhotoTapped = this.selectPhotoTapped.bind(this)
-    this.openUploadUrl = this.openUploadUrl.bind(this)
+    this.startUpload = this.startUpload.bind(this);
+    this.selectPhotoTapped = this.selectPhotoTapped.bind(this);
+    this.openUploadUrl = this.openUploadUrl.bind(this);
   }
 
-  getFileExtension (uri) {
-    const match = /\.([a-zA-Z]+)$/.exec(uri)
+  getFileExtension(uri) {
+    const match = /\.([a-zA-Z]+)$/.exec(uri);
     if (match !== null) {
-      return match[1]
+      return match[1];
     }
 
-    return ''
+    return "";
   }
 
-  getMimeType (extension) {
-    if (extension === 'jpg') return 'image/jpeg'
-    return `image/${extension}`
+  getMimeType(extension) {
+    if (extension === "jpg") return "image/jpeg";
+    return `image/${extension}`;
   }
 
-  selectPhotoTapped () {
-    // Permissions.askAsync(Permissions.CAMERA_ROLL).then((isAllowed) => {
-    //   if (!isAllowed) return
+  async selectPhotoTapped() {
+    const hasPermission = await PermissionsAndroid.check(
+      PermissionsAndroid.PERMISSIONS.CAMERA
+    );
 
-    //   ImagePicker.launchImageLibraryAsync({})
-    //     .then((result) => {
-    //       if (!result.cancelled) {
-    //         this.setState({
-    //           file  : result,
-    //           status: 'file selected',
-    //         })
-    //       }
-    //     })
-    // })
+    console.log("hasPermission", hasPermission);
+
+    const granted = await PermissionsAndroid.request(
+      PermissionsAndroid.PERMISSIONS.CAMERA,
+      {
+        title: "Cool Photo App Camera Permission",
+        message:
+          "Cool Photo App needs access to your camera " +
+          "so you can take awesome pictures.",
+        buttonNeutral: "Ask Me Later",
+        buttonNegative: "Cancel",
+        buttonPositive: "OK",
+      }
+    );
+
+    if (granted !== PermissionsAndroid.RESULTS.GRANTED) return;
+
+    ImagePicker.launchImageLibraryAsync({}).then((result) => {
+      if (!result.cancelled) {
+        this.setState({
+          file: result,
+          status: "file selected",
+        });
+      }
+    });
   }
 
-  startUpload () {
-    const { file } = this.state
+  startUpload() {
+    const { file } = this.state;
 
-    if (!file) return
+    if (!file) return;
 
-    const extension = this.getFileExtension(file.uri)
+    const extension = this.getFileExtension(file.uri);
     const upload = new tus.Upload(file, {
-      endpoint   : 'https://tusd.tusdemo.net/files/',
+      endpoint: "https://tusd.tusdemo.net/files/",
       retryDelays: [0, 1000, 3000, 5000],
-      metadata   : {
+      metadata: {
         filename: `photo.${extension}`,
         filetype: this.getMimeType(extension),
       },
       onError: (error) => {
         this.setState({
           status: `upload failed ${error}`,
-        })
+        });
       },
       onProgress: (uploadedBytes, totalBytes) => {
         this.setState({
           totalBytes,
           uploadedBytes,
-        })
+        });
       },
       onSuccess: () => {
         this.setState({
-          status   : 'upload finished',
+          status: "upload finished",
           uploadUrl: upload.url,
-        })
-        console.log('Upload URL:', upload.url)
+        });
+        console.log("Upload URL:", upload.url);
       },
-    })
+    });
 
-    upload.start()
+    upload.start();
 
     this.setState({
-      status       : 'upload started',
+      status: "upload started",
       uploadedBytes: 0,
-      totalBytes   : 0,
-      uploadUrl    : null,
-    })
+      totalBytes: 0,
+      uploadUrl: null,
+    });
   }
 
-  openUploadUrl () {
-    Linking.openURL(this.state.uploadUrl)
+  openUploadUrl() {
+    Linking.openURL(this.state.uploadUrl);
   }
 
-  render () {
+  render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.heading}>tus-js-client running in React Native</Text>
+        <Text style={styles.heading}>
+          tus-js-client running in React Native
+        </Text>
 
-        { this.state.file !== null
-          && (
+        {this.state.file !== null && (
           <Image
             style={{ width: 200, height: 200 }}
             source={{ uri: this.state.file.uri }}
           />
-          )}
+        )}
 
-        <Button
-          onPress={this.selectPhotoTapped}
-          title="Select a Photo"
-        />
+        <Button onPress={this.selectPhotoTapped} title="Select a Photo" />
 
         <Text>
           Status:
           {this.state.status}
         </Text>
         <Text>
-          {this.state.uploadedBytes}
-          {' '}
-          of
-          {' '}
-          {this.state.totalBytes}
+          {this.state.uploadedBytes} of {this.state.totalBytes}
         </Text>
         <Button
           onPress={this.startUpload}
@@ -155,15 +166,14 @@ export default class App extends React.Component {
           accessibilityLabel="Start uploading a file"
         />
 
-        { this.state.uploadUrl
-          && (
+        {this.state.uploadUrl && (
           <Button
             onPress={this.openUploadUrl}
             title="Show Uploaded File"
             accessibilityLabel="Open uploaded file"
           />
-          )}
+        )}
       </View>
-    )
+    );
   }
 }

@@ -1059,7 +1059,7 @@
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
-"@expo/config-plugins@1.0.23":
+"@expo/config-plugins@1.0.23", "@expo/config-plugins@~1.0.13":
   version "1.0.23"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-1.0.23.tgz#a05ec1b935c4b3a7e35826c891ce852dde0e99d7"
   integrity sha512-LjglO6CHC69qYjOynRsDBKuVbL2W3UPJs6nghgJR5aNhQCZtQsc74p4NWbQEkbPEasNtGCb355PlsV2fQskFaQ==
@@ -3552,6 +3552,20 @@ expo-image-loader@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/expo-image-loader/-/expo-image-loader-1.0.1.tgz#a83e336768df4dfcb8909aebb6d8152e256d7a72"
   integrity sha512-v7ziP+UGj+LArEmP//XTaqi9iFWRa8LAShNoFwwnpPS9huM8q3I+P16xK+GTo+4bQa1pPSIFBUZ8KqwAc+k8mQ==
+
+expo-image-picker@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/expo-image-picker/-/expo-image-picker-10.0.0.tgz#24a3fd7335094191f148c3d2fbf9b496c500658f"
+  integrity sha512-smANMTtxqPDxGYPVQrppJAKxla2/UN4bTGfcmX7c8X8psaNUd4Bh8z9Uk/NUz00SGUWrU0Oa1K/rVrX1e0c2Hw==
+  dependencies:
+    "@expo/config-plugins" "~1.0.13"
+    expo-permissions "~11.0.0"
+    uuid "7.0.2"
+
+expo-permissions@~11.0.0:
+  version "11.0.0"
+  resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-11.0.0.tgz#10889073121fea42bbfc35f09a35fa17a316b233"
+  integrity sha512-5+sFdU1HS/4aK9O7AsoLSNjG4f0UzlA3/nBHOPnWxxY2HRFnQp764tSsfSJRnGhM89Qxort6n2RzOusMoNP5ig==
 
 expo-permissions@~8.1.0:
   version "8.1.0"
@@ -8127,6 +8141,11 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+
+uuid@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.2.tgz#7ff5c203467e91f5e0d85cfcbaaf7d2ebbca9be6"
+  integrity sha512-vy9V/+pKG+5ZTYKf+VcphF5Oc6EFiu3W8Nv3P3zIh0EqVI80ZxOzuPfe9EHjkFNvf8+xuTHVeei4Drydlx4zjw==
 
 uuid@^3.3.2, uuid@^3.4.0:
   version "3.4.0"
