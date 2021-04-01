@@ -1,9 +1,9 @@
 {
-	"presets": [
-		[ "@babel/preset-env", {
-			"modules": false,
-			"corejs": false,
-			"forceAllTransforms": true
-		} ]
-	]
+	"env": {
+		"production": {
+			"plugins": [
+				"transform-remove-console"
+			]
+		}
+	}
 }

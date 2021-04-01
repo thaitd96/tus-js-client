@@ -9,7 +9,7 @@ import {
   Image,
   Linking
 } from 'react-native'
-import { ImagePicker, Permissions } from 'expo'
+// import { ImagePicker, Permissions } from 'expo'
 import tus from 'tus-js-client'
 
 const styles = StyleSheet.create({
@@ -58,19 +58,19 @@ export default class App extends React.Component {
   }
 
   selectPhotoTapped () {
-    Permissions.askAsync(Permissions.CAMERA_ROLL).then((isAllowed) => {
-      if (!isAllowed) return
+    // Permissions.askAsync(Permissions.CAMERA_ROLL).then((isAllowed) => {
+    //   if (!isAllowed) return
 
-      ImagePicker.launchImageLibraryAsync({})
-        .then((result) => {
-          if (!result.cancelled) {
-            this.setState({
-              file  : result,
-              status: 'file selected',
-            })
-          }
-        })
-    })
+    //   ImagePicker.launchImageLibraryAsync({})
+    //     .then((result) => {
+    //       if (!result.cancelled) {
+    //         this.setState({
+    //           file  : result,
+    //           status: 'file selected',
+    //         })
+    //       }
+    //     })
+    // })
   }
 
   startUpload () {
