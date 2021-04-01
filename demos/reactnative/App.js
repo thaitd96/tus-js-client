@@ -10,7 +10,8 @@ import {
   Linking,
   PermissionsAndroid,
 } from "react-native";
-import tus from "tus-js-client";
+import * as tus from "tus-js-client";
+import DocumentPicker from "react-native-document-picker";
 
 const styles = StyleSheet.create({
   container: {
@@ -79,13 +80,15 @@ export default class App extends React.Component {
 
     if (granted !== PermissionsAndroid.RESULTS.GRANTED) return;
 
-    ImagePicker.launchImageLibraryAsync({}).then((result) => {
-      if (!result.cancelled) {
-        this.setState({
-          file: result,
-          status: "file selected",
-        });
-      }
+    const files = await DocumentPicker.pickMultiple({
+      // type: [DocumentPicker.types.images],
+      readContent: true,
+    });
+
+    console.log("files", files);
+    this.setState({
+      file: files[0],
+      status: "file selected",
     });
   }
 

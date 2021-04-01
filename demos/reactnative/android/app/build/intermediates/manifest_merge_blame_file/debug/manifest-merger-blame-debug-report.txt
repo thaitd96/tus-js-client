@@ -72,8 +72,8 @@
 31-->/Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:22:3-79
 31-->/Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:22:20-77
 32    <uses-permission android:name="android.permission.STORAGE" />
-32-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
-32-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+32-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+32-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
 33
 34    <application
 34-->/Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:23:3-41:17
@@ -168,21 +168,21 @@
 79-->/Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:40:15-79
 80
 81        <provider
-81-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+81-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
 82            android:name="expo.modules.filesystem.FileSystemFileProvider"
-82-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+82-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
 83            android:authorities="com.tusjsclientdemo.FileSystemFileProvider"
-83-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+83-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
 84            android:exported="false"
-84-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+84-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
 85            android:grantUriPermissions="true" >
-85-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+85-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
 86            <meta-data
-86-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+86-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
 87                android:name="android.support.FILE_PROVIDER_PATHS"
-87-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+87-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
 88                android:resource="@xml/file_system_provider_paths" />
-88-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+88-->[:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
 89        </provider>
 90
 91        <service

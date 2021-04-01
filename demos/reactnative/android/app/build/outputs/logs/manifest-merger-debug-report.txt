@@ -7,15 +7,16 @@ INJECTED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/an
 MERGED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:1:1-42:12
 MERGED from [:unimodules-react-native-adapter] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-updates] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-document-picker] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-document-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-reanimated] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-screens] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/bbba83722c1be07a3ed1ef84b1d41721/jetified-react-native-0.61.5/AndroidManifest.xml:2:1-13:12
+MERGED from [:expo-constants] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
 MERGED from [:expo-image-loader] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-permissions] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-splash-screen] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-constants] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-30:12
-MERGED from [:expo-permissions] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-app-loader] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-permissions-interface] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-task-manager-interface] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/unimodules-task-manager-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -39,19 +40,19 @@ MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/apple/.gradle/cache
 MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c67f4f1041f73c195cf520bc23b19473/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0015d89e29cd2a6fed649d8eb0e994bb/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/948dc0fd3064304243bc8b9ac91120c8/soloader-0.6.0/AndroidManifest.xml:2:1-13:12
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0c8c4d797f36f7c77dcc928d149bb353/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
-MERGED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/be56b5d129279b63ab3e0158c5c77eec/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0c8c4d797f36f7c77dcc928d149bb353/jetified-glide-4.9.0/AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5fc6f3f591c7e2de151573672c34bbdd/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.2.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/d2ed4c1f2d22e4d2b3166b95583ff78f/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/268f572d75795aa2cb7ea6d4b36d4269/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6e480f47207a81e5da9fafeeb92a6b55/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/81ff1fa454edf8ca554f30a203178e7e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4f1987496e0b5f03dd574b9ae23f5578/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dccd40edb2e077826853cddde5b4e22c/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/193953fa1608f778c6c0103510541d16/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6faaf2270ce42c656228bbc46504593c/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c8cefc107aeb391d4d8f8ce6daad02f5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4f1987496e0b5f03dd574b9ae23f5578/jetified-gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dccd40edb2e077826853cddde5b4e22c/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/193953fa1608f778c6c0103510541d16/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/866f4023b0f6f111f4c80b2759f3a74c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4219b5a6d22e34f8b719171d3a1fa43b/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/94882809552827825dd69f1d1f1ec6b0/activity-1.1.0/AndroidManifest.xml:17:1-24:12
@@ -102,8 +103,8 @@ INJECTED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/an
 		ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:2:3-64
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-67
 	android:name
 		ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:2:20-62
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -162,8 +163,8 @@ ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/andro
 		ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:15:20-68
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:16:3-77
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:5-80
 	android:name
 		ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:16:20-75
 uses-permission#android.permission.RECORD_AUDIO
@@ -172,8 +173,8 @@ ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/andro
 		ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:17:20-66
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:18:3-78
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-81
 	android:name
 		ADDED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:18:20-76
 uses-permission#android.permission.WRITE_SETTINGS
@@ -200,18 +201,18 @@ MERGED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/andr
 MERGED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml:23:3-41:17
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/bbba83722c1be07a3ed1ef84b1d41721/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/bbba83722c1be07a3ed1ef84b1d41721/jetified-react-native-0.61.5/AndroidManifest.xml:11:5-20
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-28:19
 MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/268be37c762c3f1e21922779bb4297e4/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/268be37c762c3f1e21922779bb4297e4/material-1.1.0/AndroidManifest.xml:22:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/948dc0fd3064304243bc8b9ac91120c8/soloader-0.6.0/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/948dc0fd3064304243bc8b9ac91120c8/soloader-0.6.0/AndroidManifest.xml:11:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0c8c4d797f36f7c77dcc928d149bb353/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
 MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0c8c4d797f36f7c77dcc928d149bb353/jetified-glide-4.9.0/AndroidManifest.xml:10:5-20
-MERGED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
-MERGED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4f1987496e0b5f03dd574b9ae23f5578/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4f1987496e0b5f03dd574b9ae23f5578/jetified-gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:24:5-28:19
 MERGED from [androidx.core:core:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/57a7755ec7f8569f8e81b10deb53e9cc/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/57a7755ec7f8569f8e81b10deb53e9cc/core-1.1.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cf966c3591d0a3475bdaa62765d46ce5/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
@@ -322,6 +323,8 @@ MERGED from [:unimodules-react-native-adapter] /Volumes/DATA/DATA/React-native/t
 MERGED from [:unimodules-react-native-adapter] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-updates] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-updates] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-updates/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-document-picker] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-document-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-document-picker] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-document-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-reanimated] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -330,16 +333,16 @@ MERGED from [:react-native-screens] /Volumes/DATA/DATA/React-native/tus-js-clien
 MERGED from [:react-native-screens] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/bbba83722c1be07a3ed1ef84b1d41721/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] /Users/apple/.gradle/caches/transforms-2/files-2.1/bbba83722c1be07a3ed1ef84b1d41721/jetified-react-native-0.61.5/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
 MERGED from [:expo-image-loader] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-image-loader] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-image-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-splash-screen] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-splash-screen] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-constants] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-constants/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-10:41
-MERGED from [:expo-permissions] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:expo-permissions] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-permissions/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-app-loader] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-app-loader] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/unimodules-app-loader/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-permissions-interface] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/unimodules-permissions-interface/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -386,12 +389,10 @@ MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/apple/.gradle/
 MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0015d89e29cd2a6fed649d8eb0e994bb/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/948dc0fd3064304243bc8b9ac91120c8/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/948dc0fd3064304243bc8b9ac91120c8/soloader-0.6.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0c8c4d797f36f7c77dcc928d149bb353/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0c8c4d797f36f7c77dcc928d149bb353/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
-MERGED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/be56b5d129279b63ab3e0158c5c77eec/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/be56b5d129279b63ab3e0158c5c77eec/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0c8c4d797f36f7c77dcc928d149bb353/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/0c8c4d797f36f7c77dcc928d149bb353/jetified-glide-4.9.0/AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5fc6f3f591c7e2de151573672c34bbdd/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5fc6f3f591c7e2de151573672c34bbdd/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.2.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/d2ed4c1f2d22e4d2b3166b95583ff78f/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
@@ -402,16 +403,18 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/apple/.g
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6e480f47207a81e5da9fafeeb92a6b55/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/81ff1fa454edf8ca554f30a203178e7e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/81ff1fa454edf8ca554f30a203178e7e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4f1987496e0b5f03dd574b9ae23f5578/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4f1987496e0b5f03dd574b9ae23f5578/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dccd40edb2e077826853cddde5b4e22c/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dccd40edb2e077826853cddde5b4e22c/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/193953fa1608f778c6c0103510541d16/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/193953fa1608f778c6c0103510541d16/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6faaf2270ce42c656228bbc46504593c/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/6faaf2270ce42c656228bbc46504593c/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c8cefc107aeb391d4d8f8ce6daad02f5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/c8cefc107aeb391d4d8f8ce6daad02f5/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4f1987496e0b5f03dd574b9ae23f5578/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4f1987496e0b5f03dd574b9ae23f5578/jetified-gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dccd40edb2e077826853cddde5b4e22c/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/dccd40edb2e077826853cddde5b4e22c/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/193953fa1608f778c6c0103510541d16/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/193953fa1608f778c6c0103510541d16/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/866f4023b0f6f111f4c80b2759f3a74c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/866f4023b0f6f111f4c80b2759f3a74c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/4219b5a6d22e34f8b719171d3a1fa43b/loader-1.0.0/AndroidManifest.xml:20:5-44
@@ -477,27 +480,27 @@ INJECTED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/an
 		INJECTED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.STORAGE
-ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
+ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-66
 	android:name
-		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
+		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-63
 provider#expo.modules.filesystem.FileSystemFileProvider
-ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
+ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:9-27:20
 	android:grantUriPermissions
-		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
+		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-47
 	android:authorities
-		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
+		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-74
 	android:exported
-		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
+		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-37
 	tools:replace
-		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
+		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-48
 	android:name
-		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
+		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-74
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
+ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:70
 	android:resource
-		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
+		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-67
 	android:name
-		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/react-native-unimodules/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+		ADDED from [:expo-file-system] /Volumes/DATA/DATA/React-native/tus-js-client/demos/reactnative/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
 service#androidx.room.MultiInstanceInvalidationService
 ADDED from [androidx.room:room-runtime:2.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1f9600edb87ec7249ed2f749439da712/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
 	android:exported
